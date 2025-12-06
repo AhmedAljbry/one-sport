@@ -1,3 +1,5 @@
+![OneSport App](Gemini_Generated_Image_smnfu1smnfu1smnf.png)
+
 # OneSport – Live Sports Streaming App
 ### Watch Live Matches, Browse Leagues, and Get Instant Updates  
 ### Built with Flutter, Firebase, and REST API
@@ -23,26 +25,27 @@ It allows users to browse live & upcoming matches, view leagues, and watch strea
 ### 🏆 Matches & Leagues
 - View all **live** and **upcoming** matches  
 - Browse matches by **league**, **team**, or **date**  
-- Match details screen:
-  - Teams
-  - Time & league
-  - Description
-  - Streaming availability
+- Match details screen includes:
+  - Teams  
+  - Match time  
+  - League  
+  - Description  
+  - Streaming availability  
 
 ### 🎥 Live Streaming Integration
-- Launch the **OneSport External Player** to watch the match  
-- Stream delivered using secure **HLS / m3u8** URLs  
-- Token-based or authenticated access (depending on backend)
+- Launch the **OneSport External Player** to watch live matches  
+- Streams delivered using secure **HLS / m3u8 URLs**  
+- Token-based or authenticated streaming depending on backend logic  
 
 ### 👤 User Access
-- Firebase Authentication (email/phone/custom token)
-- Profile & basic settings
-- Manage notifications
+- Firebase Authentication (email/phone/custom token)  
+- Basic profile screen  
+- Toggle notification settings  
 
 ### 🔔 Push Notifications
-- Match start alerts  
-- New match announcements  
-- Important system updates
+- Match start reminders  
+- Breaking match announcements  
+- Important system updates  
 
 ---
 
@@ -56,6 +59,7 @@ lib/
     routing/
     services/        # API client + Firebase services
     utils/
+
   features/
     auth/
     home/
@@ -64,5 +68,6 @@ lib/
     video/
     notifications/
     profile/
+
   app.dart
   main.dart
